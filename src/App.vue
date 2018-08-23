@@ -2,7 +2,7 @@
 <div id="app">
     <main>
         <header-banner />
-        <HomePage />
+        <router-view />
         <footer-banner />
     </main>
 </div>
@@ -10,14 +10,16 @@
 
 <script>
 import HeaderBanner from './components/HeaderBanner.vue';
-import HomePage from './components/HomePage.vue';
+import Home from './views/Home.vue';
+import About from './views/About.vue';
 import FooterBanner from './components/FooterBanner.vue';
 
 export default {
   name: 'app',
   components: {
     HeaderBanner,
-    HomePage,
+    Home,
+    About,
     FooterBanner,
   },
 };
@@ -25,7 +27,7 @@ export default {
 
 <style lang="scss">
 body {
-  margin: 7.05rem 0;
+  margin: 6.25rem 0;
 }
 #app {
     font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
