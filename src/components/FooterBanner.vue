@@ -32,5 +32,8 @@ export default {
 .footer {
     padding: 1rem 1.5rem;
     border-top: .0075em solid #202020;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 </style>

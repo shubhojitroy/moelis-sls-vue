@@ -24,6 +24,9 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  margin: 6.25rem 0 4.5rem;
+}
 #app {
     font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
     Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
