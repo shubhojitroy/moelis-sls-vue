@@ -109,4 +109,19 @@ export default {
     margin: 0 auto;
     color: #476978;
 }
+.card-header-title {
+    color: #41535b;
+}
+// .button {
+//     border: none;
+//     box-shadow: 0 0.5rem 1rem 0 rgba(10,10,10,.2);
+//     flex-grow: 0;
+//     flex-shrink: 0;
+//     font-weight: 500;
+//     height: auto;
+//     padding: .5em 1em;
+//     transition-duration: 172ms;
+//     cursor: pointer;
+//     justify-content: center;
+// }
 </style>

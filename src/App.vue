@@ -25,7 +25,7 @@ export default {
 
 <style lang="scss">
 body {
-  margin: 6.25rem 0 4.5rem;
+  margin: 7.05rem 0;
 }
 #app {
     font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
