@@ -2,7 +2,7 @@
     <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="container is-fluid">
             <div class="navbar-brand">
-                <a class="logo" href="https://moelisaustralia.com/" title="Moelis Asset Management">
+                <a class="logo" href="/" title="Moelis Asset Management">
                     <img src="../assets/images/moelis-logo.png" alt="Moelis Asset Management" width="160">
                 </a>
             </div>
