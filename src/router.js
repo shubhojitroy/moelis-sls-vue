@@ -34,7 +34,7 @@ export default new Router({
     {
       path: '/confirmation',
       name: 'confirmation',
-      component: () => import(/* webpackChunkName: "application" */ './views/Confirmation.vue'),
+      component: () => import(/* webpackChunkName: "confirmation" */ './views/Confirmation.vue'),
     },
   ],
 });
