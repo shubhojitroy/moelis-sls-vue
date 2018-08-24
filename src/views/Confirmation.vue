@@ -9,7 +9,7 @@
 import ConfirmationPaymentPage from '../components/ConfirmationPaymentPage.vue';
 
 export default {
-  name: 'details',
+  name: 'ConfirmationPaymentPage',
   components: {
     ConfirmationPaymentPage,
   },
