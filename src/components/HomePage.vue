@@ -74,15 +74,15 @@
                         </li>
                     </ol>
                     <p>
-                       The IM should not be construed as financial, taxation, legal or other advice. If you do not fully understand this IM or are in doubt as to how to deal with it, you should seek professional guidance from your stockbroker, lawyer, accountant or other professional adviser before deciding whether to invest.
+                        The IM should not be construed as financial, taxation, legal or other advice. If you do not fully understand this IM or are in doubt as to how to deal with it, you should seek professional guidance from your stockbroker, lawyer, accountant or other professional adviser before deciding whether to invest.
                     </p>
                     <hr>
                     <div class="level">
                         <div class="level-left">
-                            <button class="button">DOWNLOAD INFORMATION MEMORANDUM</button>
+                        <button class="button">DOWNLOAD INFORMATION MEMORANDUM</button>
                         </div>
                         <div class="level-right">
-                            <button class="button">PROCEED</button>
+                        <router-link to="/login" tag="button" class="button">PROCEED</router-link>
                         </div>
                     </div>
                 </div>
@@ -100,7 +100,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 .home {
     margin: 1.5em auto;
 }

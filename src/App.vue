@@ -10,16 +10,16 @@
 
 <script>
 import HeaderBanner from './components/HeaderBanner.vue';
-import Home from './views/Home.vue';
-import About from './views/About.vue';
+// import Home from './views/Home.vue';
+// import Login from './views/Login.vue';
 import FooterBanner from './components/FooterBanner.vue';
 
 export default {
   name: 'app',
   components: {
     HeaderBanner,
-    Home,
-    About,
+    // Home,
+    // Login,
     FooterBanner,
   },
 };
