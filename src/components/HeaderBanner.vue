@@ -1,21 +1,26 @@
 <template>    
-    <nav class="navbar header has-shadow" role="navigation" aria-label="main navigation">  
-        <div class="container is-fluid">                
-            <div class="navbar-brand">
-                <a class="logo" href="/" title="Moelis Asset Management">
-                    <img src="../assets/images/moelis-logo.png" alt="Moelis Asset Management" width="160">
-                </a>
-            </div>
-            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>            
-            
-
-            <div id="navbarExampleTransparentExample" class="navbar-menu">                  
-                <div class="navbar-end">
-                    <div class="navbar-item is-active">
+    <nav class="navbar is-transparent header has-shadow" role="navigation" aria-label="main navigation">  
+        <div class="container">           
+            <div class="navbar-brand"><!--navbar-menu is-active-->
+                <div class="logo">
+                    <a class="" href="/" title="Moelis Asset Management">
+                        <img src="../assets/images/moelis-logo.png" alt="Moelis Asset Management" width="160">
+                    </a>
+                </div>
+                <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>                                 
+                
+                
+            <div id="navbarExampleTransparentExample" class="navbar-menu">
+                <div class="navbar-start">
+                    &nbsp;
+                </div>                
+                <div class="navbar-end is-hoverable">
+                    <div class="navbar-item">
                         <p class="subtitle is-7">
                             Offer Information Line<br>
                             1800 634 850 (within Australia)<br>
@@ -23,7 +28,7 @@
                         </p>
                     </div>
                 </div>
-            </div> 
+            </div>          
         </div>  
     </nav>   
 </template>
