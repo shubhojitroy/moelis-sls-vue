@@ -1,13 +1,31 @@
-<template>
-    <nav class="navbar is-transparent is-fixed-top" role="navigation" aria-label="main navigation">
-        <div class="container is-fluid">
+<template>    
+    <nav class="navbar header has-shadow" role="navigation" aria-label="main navigation">  
+        <div class="container is-fluid">                
             <div class="navbar-brand">
                 <a class="logo" href="/" title="Moelis Asset Management">
                     <img src="../assets/images/moelis-logo.png" alt="Moelis Asset Management" width="160">
                 </a>
             </div>
-        </div>
-    </nav>
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>            
+            
+
+            <div id="navbarExampleTransparentExample" class="navbar-menu">                  
+                <div class="navbar-end">
+                    <div class="navbar-item is-active">
+                        <p class="subtitle is-7">
+                            Offer Information Line<br>
+                            1800 634 850 (within Australia)<br>
+                            +61 2 9290 9681 (International)
+                        </p>
+                    </div>
+                </div>
+            </div> 
+        </div>  
+    </nav>   
 </template>
 
 <script>

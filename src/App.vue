@@ -1,11 +1,11 @@
 <template>
-<div id="app">
+  <div id="app">
     <main>
         <header-banner />
         <router-view />
         <footer-banner />
     </main>
-</div>
+  </div>
 </template>
 
 <script>
@@ -27,10 +27,10 @@ export default {
 
 <style lang="scss">
 body {
-  margin: 6.25rem 0;
+  margin: 0 0 7.0rem;
 }
 #app {
-    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+  Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 </style>

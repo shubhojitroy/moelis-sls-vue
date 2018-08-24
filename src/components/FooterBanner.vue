@@ -31,7 +31,7 @@ export default {
 <style scoped lang="scss">
 .footer {
     padding: 1rem 1.5rem;
-    border-top: .0075em solid #202020;
+    border-top: .0075em solid rgb(221, 214, 214);
     position: fixed;
     bottom: 0;
     width: 100%;

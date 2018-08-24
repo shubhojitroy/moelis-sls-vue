@@ -142,7 +142,7 @@ export default {
 
 <style lang="scss">
 .home {
-    margin: 1.5em auto;
+    margin: 1.5rem 0;
 }
 .card {
     max-width: 75%;
@@ -152,16 +152,13 @@ export default {
 .card-header-title {
     color: #41535b;
 }
-// .button {
-//     border: none;
-//     box-shadow: 0 0.5rem 1rem 0 rgba(10,10,10,.2);
-//     flex-grow: 0;
-//     flex-shrink: 0;
-//     font-weight: 500;
-//     height: auto;
-//     padding: .5em 1em;
-//     transition-duration: 172ms;
-//     cursor: pointer;
-//     justify-content: center;
-// }
+.button {
+    box-shadow: 0 0.5rem 1rem 0 rgba(10,10,10,.2);    
+    transition-duration: 172ms; 
+
+    &:hover {
+        box-shadow: 0 3rem 3rem -1.25rem rgba(10,10,10,.1);
+        transform: translateY(-.5rem);
+    }
+}
 </style>
