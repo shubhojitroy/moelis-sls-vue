@@ -1,5 +1,5 @@
 <template>    
-    <nav class="navbar is-transparent header has-shadow" role="navigation" aria-label="main navigation">  
+    <nav class="navbar header has-shadow" role="navigation" aria-label="main navigation">  
         <div class="container">           
             <div class="navbar-brand"><!--navbar-menu is-active-->
                 <div class="logo">
@@ -19,7 +19,7 @@
                 <div class="navbar-start">
                     &nbsp;
                 </div>                
-                <div class="navbar-end is-hoverable">
+                <div class="navbar-end">
                     <div class="navbar-item">
                         <p class="subtitle is-7">
                             Offer Information Line<br>
