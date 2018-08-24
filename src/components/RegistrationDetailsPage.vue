@@ -19,10 +19,14 @@
                 <hr>
                 <div class="level">
                     <div class="level-left">
-                        <router-link to="/login" tag="button" class="button">PPREVIOUS</router-link>
+                        <router-link to="/login" tag="button" class="button">
+                            PPREVIOUS
+                        </router-link>
                     </div>
                     <div class="level-right">
-                        <router-link to="/application" tag="button" class="button">NEXT</router-link>
+                        <router-link to="/application" tag="button" class="button">
+                            NEXT
+                        </router-link>
                     </div>
                 </div>
             </div>

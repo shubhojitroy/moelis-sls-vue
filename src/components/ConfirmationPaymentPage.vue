@@ -13,16 +13,22 @@
                     </p>
                     <hr>
                     <p>
-                       You should check the processing cut-off time for BPAY® transactions with your bank, credit union or building society to ensure your payment will be received by the Registry in time.
+                       You should check the processing cut-off time for BPAY®
+                       transactions with your bank, credit union or building
+                       society to ensure your payment will be received by the Registry in time.
                     </p>
                 </div>
                 <hr>
                 <div class="level">
                     <div class="level-left">
-                        <router-link to="/application" tag="button" class="button">PPREVIOUS</router-link>
+                        <router-link to="/application" tag="button" class="button">
+                            PPREVIOUS
+                        </router-link>
                     </div>
                     <div class="level-right">
-                        <router-link to="/" tag="button" class="button">RETURN TO START</router-link>
+                        <router-link to="/" tag="button" class="button">
+                            RETURN TO START
+                        </router-link>
                     </div>
                 </div>
             </div>
