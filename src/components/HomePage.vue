@@ -149,7 +149,8 @@ export default {
   },
   computed: {
       loginView() {
-       return this.disabled ? '/login' : '';   
+          
+          return this.disabled ? '/login' : '';   
       }
   },
 };
