@@ -4,7 +4,7 @@
             <div class="navbar-brand"><!--navbar-menu is-active-->
                 <div class="logo">
                     <a class="" href="/" title="Moelis Asset Management">
-                        <img :src="availableParts.logos[0].src" alt="Moelis Asset Management" width="160">
+                        <img :src="availableParts.logos[selectedLogosIndex].src" alt="Moelis Asset Management" width="160">
                     </a>
                 </div>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -43,7 +43,14 @@ export default {
   data() {
       return {
           availableParts,
+          selectedLogosIndex: 0,
       };
+  },
+  methods: {
+      selectedLogos() {
+          this.selectedLogosIndex += 1;
+
+      }
   },
 };
 </script>
