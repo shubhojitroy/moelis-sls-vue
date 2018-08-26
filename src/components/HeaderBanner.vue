@@ -4,7 +4,7 @@
             <div class="navbar-brand"><!--navbar-menu is-active-->
                 <div class="logo">
                     <a class="" href="/" title="Moelis Asset Management">
-                        <img src="../assets/images/moelis-logo.png" alt="Moelis Asset Management" width="160">
+                        <img :src="availableParts.logos[0].src" alt="Moelis Asset Management" width="160">
                     </a>
                 </div>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -34,10 +34,16 @@
 </template>
 
 <script>
+import availableParts from '../data/parts';
 export default {
   name: 'HeaderBanner',
   props: {
     msg: String,
+  },
+  data() {
+      return {
+          availableParts,
+      };
   },
 };
 </script>

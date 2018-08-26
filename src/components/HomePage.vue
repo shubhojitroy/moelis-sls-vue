@@ -119,10 +119,14 @@
                     <hr>
                     <div class="level">
                         <div class="level-left">
-                        <button class="button">DOWNLOAD INFORMATION MEMORANDUM</button>
+                            <a href="../assets/prospectus/Moelis-Australia-Secured-Loan-Series-Information-Memorandum-August-2018.pdf" tag="button" class="button" :click="!loginView" target="_blank">
+                                DOWNLOAD INFORMATION MEMORANDUM
+                            </a>
                         </div>
                         <div class="level-right">
-                        <router-link to="/login" tag="button" class="button">PROCEED</router-link>
+                            <router-link :to="loginView" :disabled="!loginView" class="button" >
+                                PROCEED&nbsp;&#x261B;
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -132,10 +136,21 @@
 </template>
 
 <script>
+
 export default {
   name: 'HomePage',
   props: {
     msg: String,
+  },
+  data() { 
+      return {
+          
+      };
+  },
+  computed: {
+      loginView() {
+       return this.disabled ? '/login' : '';   
+      }
   },
 };
 </script>
@@ -154,8 +169,7 @@ export default {
 }
 .button {
     box-shadow: 0 0.5rem 1rem 0 rgba(10,10,10,.2);    
-    transition-duration: 172ms; 
-
+    transition-duration: 172ms;
     &:hover {
         box-shadow: 0 3rem 3rem -1.25rem rgba(10,10,10,.1);
         transform: translateY(-.5rem);
