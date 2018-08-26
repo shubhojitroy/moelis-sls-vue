@@ -8,8 +8,18 @@
             </header>
             <div class="card-content">
                 <div class="content">
-                    <p>
-
+                    <p class="subtitle is-5">
+                        <!-- {{ investor.nameAddress1 }}
+                        <br> -->
+                        <!-- {{ investor.nameAddress2 }}
+                        <br>
+                        {{ investor.nameAddress3 }}
+                        <br>
+                        {{ investor.nameAddress4 }}
+                        <br>
+                        {{ investor.nameAddress5 }}
+                        <br>
+                        {{ investor.nameAddress6 }} -->
                     </p>
                     <hr>
                     <p>
@@ -35,14 +45,17 @@
 </template>
 
 <script>
+
+
 export default {
-  name: 'RegistrationDetailsPage',
-  props: {
-    msg: String,
-  },
+  name: 'RegistrationDetailsPage', 
+//   data(pcode) {
+//       return {
+//         investor: this.investor.nameAddress1
+//       };
+//   },
 };
 </script>
 
 <style scoped lang="scss">
-
 </style>
