@@ -119,13 +119,13 @@
                     <hr>
                     <div class="level">
                         <div class="level-left">
-                            <a href="Moelis-Australia-Secured-Loan-Series-Information-Memorandum-August-2018.pdf"
-                            name="downloadPDS" class="button" target="_blank" id="downloadPDS">
+                            <a href="/Moelis-Australia-Secured-Loan-Series-Information-Memorandum-August-2018.pdf"
+                            class="button" target="_blank" @click="hrefIsClicked">
                                 DOWNLOAD INFORMATION MEMORANDUM&nbsp;&#x2913;
                             </a>
                         </div>
                         <div class="level-right">
-                            <router-link to="/login" disabled="isDisabled" class="button" >
+                            <router-link to="/login" :disabled="disabled" class="button" >
                                 PROCEED&nbsp;&#x27A4;
                             </router-link>
                         </div>
@@ -137,7 +137,6 @@
 </template>
 
 <script>
-
 export default {
   name: 'HomePage',
   props: {
@@ -145,36 +144,35 @@ export default {
   },
   data() {
     return {
-        downLoadPDS: false,
+      disabled: true,
     };
   },
-  computed: { 
-    isDisabled() {
-      return !this.downLoadPDS;
-      
-    },    
+  methods: {
+    hrefIsClicked() {
+      this.disabled = false;
+    },
   },
 };
 </script>
 
 <style lang="scss">
 .home {
-    margin: 1.5rem 0;
+  margin: 1.5rem 0;
 }
 .card {
-    max-width: 75%;
-    margin: 0 auto;
-    color: #476978;
+  max-width: 75%;
+  margin: 0 auto;
+  color: #476978;
 }
 .card-header-title {
-    color: #41535b;
+  color: #41535b;
 }
 .button {
-    box-shadow: 0 0.5rem 1rem 0 rgba(10,10,10,.2);
-    transition-duration: 172ms;
-    &:hover {
-        box-shadow: 0 3rem 3rem -1.25rem rgba(10,10,10,.1);
-        transform: translateY(-.5rem);
-    }
+  box-shadow: 0 0.5rem 1rem 0 rgba(10, 10, 10, 0.2);
+  transition-duration: 172ms;
+  &:hover {
+    box-shadow: 0 3rem 3rem -1.25rem rgba(10, 10, 10, 0.1);
+    transform: translateY(-0.5rem);
+  }
 }
 </style>
