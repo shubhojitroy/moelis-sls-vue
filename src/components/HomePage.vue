@@ -125,7 +125,7 @@
                             </a>
                         </div>
                         <div class="level-right">
-                            <router-link to="/login" :disabled="isDisabled" class="button" >
+                            <router-link to="/login" disabled="isDisabled" class="button" >
                                 PROCEED&nbsp;&#x27A4;
                             </router-link>
                         </div>
@@ -148,13 +148,11 @@ export default {
         downLoadPDS: false,
     };
   },
-  computed: {
+  computed: { 
     isDisabled() {
       return !this.downLoadPDS;
-    },
-    // loginView() {
-    //   return '/login';
-    // },
+      
+    },    
   },
 };
 </script>
