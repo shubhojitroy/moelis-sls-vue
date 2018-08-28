@@ -1,10 +1,11 @@
-<template>    
-    <nav class="navbar header has-shadow" role="navigation" aria-label="main navigation">  
-        <div class="container">           
+<template>
+    <nav class="navbar header has-shadow" role="navigation" aria-label="main navigation">
+        <div class="container">
             <div class="navbar-brand"><!--navbar-menu is-active-->
                 <div class="logo">
                     <a class="" href="/" title="Moelis Asset Management">
-                        <img :src="availableParts.logos[selectedLogosIndex].src" alt="Moelis Asset Management" width="160">
+                        <img :src="availableParts.logos[selectedLogosIndex].src"
+                        alt="Moelis Asset Management" width="160">
                     </a>
                 </div>
                 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -12,13 +13,13 @@
                     <span></span>
                     <span></span>
                 </div>
-            </div>                                 
-                
-                
+            </div>
+
+
             <div id="navbarExampleTransparentExample" class="navbar-menu">
                 <div class="navbar-start">
                     &nbsp;
-                </div>                
+                </div>
                 <div class="navbar-end">
                     <div class="navbar-item">
                         <p class="subtitle is-7">
@@ -28,29 +29,29 @@
                         </p>
                     </div>
                 </div>
-            </div>          
-        </div>  
-    </nav>   
+            </div>
+        </div>
+    </nav>
 </template>
 
 <script>
 import availableParts from '../data/parts';
+
 export default {
   name: 'HeaderBanner',
   props: {
     msg: String,
   },
   data() {
-      return {
-          availableParts,
-          selectedLogosIndex: 0,
-      };
+    return {
+      availableParts,
+      selectedLogosIndex: 0,
+    };
   },
   methods: {
-      selectedLogos() {
-          this.selectedLogosIndex += 1;
-
-      }
+    selectedLogos() {
+      this.selectedLogosIndex += 1;
+    },
   },
 };
 </script>

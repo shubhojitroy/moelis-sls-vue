@@ -119,12 +119,13 @@
                     <hr>
                     <div class="level">
                         <div class="level-left">
-                            <a href="../assets/prospectus/Moelis-Australia-Secured-Loan-Series-Information-Memorandum-August-2018.pdf" tag="button" class="button" @click="!loginView" target="_blank">
+                            <a href="Moelis-Australia-Secured-Loan-Series-Information-Memorandum-August-2018.pdf"
+                            name="downloadPDS" class="button" target="_blank" id="downloadPDS">
                                 DOWNLOAD INFORMATION MEMORANDUM&nbsp;&#x2913;
                             </a>
                         </div>
                         <div class="level-right">
-                            <router-link :to="loginView" :disabled="!loginView" class="button" >
+                            <router-link to="/login" :disabled="isDisabled" class="button" >
                                 PROCEED&nbsp;&#x27A4;
                             </router-link>
                         </div>
@@ -142,16 +143,18 @@ export default {
   props: {
     msg: String,
   },
-  data() { 
-      return {
-          
-      };
+  data() {
+    return {
+        downLoadPDS: false,
+    };
   },
   computed: {
-      loginView() {
-          
-          return this.disabled ? '/login' : '';   
-      }
+    isDisabled() {
+      return !this.downLoadPDS;
+    },
+    // loginView() {
+    //   return '/login';
+    // },
   },
 };
 </script>
@@ -169,7 +172,7 @@ export default {
     color: #41535b;
 }
 .button {
-    box-shadow: 0 0.5rem 1rem 0 rgba(10,10,10,.2);    
+    box-shadow: 0 0.5rem 1rem 0 rgba(10,10,10,.2);
     transition-duration: 172ms;
     &:hover {
         box-shadow: 0 3rem 3rem -1.25rem rgba(10,10,10,.1);
