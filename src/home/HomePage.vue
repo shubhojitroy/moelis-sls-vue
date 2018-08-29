@@ -119,7 +119,7 @@
                     <hr>
                     <div class="level">
                         <div class="level-left">
-                            <a href="/Moelis-Australia-Secured-Loan-Series-Information-Memorandum-August-2018.pdf" class="button" target="_blank" @click="hrefIsClicked">
+                            <a href="./Moelis-Australia-Secured-Loan-Series-Information-Memorandum-August-2018.pdf" class="button" target="_blank" @click="hrefIsClicked">
                                 DOWNLOAD INFORMATION MEMORANDUM&nbsp;&#x2913;
                             </a>
                         </div>
