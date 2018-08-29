@@ -1,0 +1,116 @@
+.wrapper {
+    max-width: 50rem;
+    width: 100%;
+    margin: 5rem auto 15rem auto;
+    text-align: center;
+  }
+  .bouncing_ball {
+    position: relative;
+    width: 4rem;
+    margin: 0 auto;
+    height: 12rem;
+  }
+  .ball {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    top: 0;
+    animation: bounce 1s infinite;
+  }
+  
+  h1.loading {
+      font-size: 3em;
+      font-weight: 400;
+      margin-left: 3rem;
+  }
+  span[class^='dot_'] {
+      opacity: 0;
+  }
+  .dot_one {
+      animation: dot_one 2s infinite linear;
+  }
+  .dot_two {
+      animation: dot_two 2s infinite linear;
+  }
+  .dot_three {
+      animation: dot_three 2s infinite linear;
+  }
+  .wrapper {
+      max-width: 50rem;
+      width: 100%;
+      margin: 5rem auto 15rem auto;
+      text-align: center;
+  }
+  
+  @keyframes bounce {
+    0% {
+      top: 0;
+      animation-timing-function: ease-in;
+    }
+    34% {
+      height: 4rem;
+      width: 4rem;
+    }
+    35% {
+      top: 8rem;
+      height: 3rem;
+      width: 4.3rem;
+      animation-timing-function: ease-out;
+    }
+    45% {
+      height: 4rem;
+      width: 4rem;
+    }
+    90% {
+      top: 0;
+    }
+    100% {
+      top: 0;
+    }
+  }
+  
+  @keyframes dot_one {
+      0% {
+          opacity: 0;
+      }
+      15% {
+          opacity: 0;
+      }
+      25% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  @keyframes dot_two {
+      0% {
+          opacity: 0;
+      }
+      40% {
+          opacity: 0;
+      }
+      50% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  @keyframes dot_three {
+      0% {
+          opacity: 0;
+      }
+      65% {
+          opacity: 0;
+      }
+      75% {
+          opacity: 1;
+      }
+      100% {
+          opacity: 1;
+      }
+  }
+  
