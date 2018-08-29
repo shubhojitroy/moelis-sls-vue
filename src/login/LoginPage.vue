@@ -11,7 +11,8 @@
                     <div class="box">
                         <form novalidate>
                             <b-field label="Priority Code">
-                                <b-input v-model="pcode" type="text" maxlength="4" placeholder="Input the Priority Code">
+                                <b-input v-model="pcode" type="text" maxlength="4"
+                                placeholder="Input the Priority Code">
                                 </b-input>
                             </b-field>
                             <div class="control">
@@ -43,9 +44,9 @@ export default {
     msg: String,
   },
   data() {
-      return {
-          pcode: '',
-      };
+    return {
+      pcode: '',
+    };
   },
 };
 </script>

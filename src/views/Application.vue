@@ -6,7 +6,7 @@
 
 <script>
 // @ is an alias to /src
-import ApplicationPage from '../components/ApplicationPage.vue';
+import ApplicationPage from '../application/ApplicationPage.vue';
 
 export default {
   name: 'application',

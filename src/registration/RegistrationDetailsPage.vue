@@ -48,7 +48,7 @@
 
 
 export default {
-  name: 'RegistrationDetailsPage', 
+  name: 'RegistrationDetailsPage',
 //   data(pcode) {
 //       return {
 //         investor: this.investor.nameAddress1

@@ -6,7 +6,7 @@
 
 <script>
 // @ is an alias to /src
-import ConfirmationPaymentPage from '../components/ConfirmationPaymentPage.vue';
+import ConfirmationPaymentPage from '../confirmation/ConfirmationPaymentPage.vue';
 
 export default {
   name: 'confirmation',

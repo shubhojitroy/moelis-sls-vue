@@ -7,7 +7,7 @@
 
 <script>
 // @ is an alias to /src
-import LoginPage from '../components/LoginPage.vue';
+import LoginPage from '../login/LoginPage.vue';
 
 export default {
   name: 'login',
