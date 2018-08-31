@@ -52,13 +52,13 @@
                 <hr>
                 <div class="level">
                     <div class="level-left">
-                        <router-link to="/details" tag="button" class="button">
-                            PPREVIOUS
+                        <router-link to="/details" tag="button" class="button is-primary">
+                            &#x261A;&nbsp;PPREVIOUS
                         </router-link>
                     </div>
                     <div class="level-right">
-                        <router-link to="/confirmation" tag="button" class="button">
-                            NEXT
+                        <router-link to="/confirmation" tag="button" class="button is-primary">
+                            NEXT&nbsp;&#x261B;
                         </router-link>
                     </div>
                 </div>

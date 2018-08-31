@@ -3,7 +3,7 @@
         <div class="card">
             <header class="card-header">
                 <p class="card-header-title">
-                    Registration Details
+                    REGISTRATION DETAILS
                 </p>
             </header>
             <div class="card-content">
@@ -29,13 +29,13 @@
                 <hr>
                 <div class="level">
                     <div class="level-left">
-                        <router-link to="/login" tag="button" class="button">
-                            PPREVIOUS
+                        <router-link to="/login" tag="button" class="button is-primary">
+                            &#x2039;&nbsp;PPREVIOUS
                         </router-link>
                     </div>
                     <div class="level-right">
-                        <router-link to="/application" tag="button" class="button">
-                            NEXT
+                        <router-link to="/application" tag="button" class="button is-primary">
+                            NEXT&nbsp;&#x203A;
                         </router-link>
                     </div>
                 </div>

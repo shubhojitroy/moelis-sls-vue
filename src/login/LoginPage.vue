@@ -3,7 +3,7 @@
         <div class="card">
             <header class="card-header">
                 <p class="card-header-title">
-                    Enter Your Priority Code
+                    ENTER YOUR PRIORTY CODE
                 </p>
             </header>
             <div class="card-content">
@@ -16,22 +16,17 @@
                                 </b-input>
                             </b-field>
                             <div class="control">
-                                <button type="submit" class="button">
-                                    Login
-                                </button>
+                                <!-- <button type="submit" class="button is-primary">
+                                    Login&nbsp;&#x2714;
+                                </button> -->
+                                <router-link to="/details" tag="button" class="button is-primary">
+                                    Login&nbsp;&#x2714;
+                                </router-link>
                             </div>
                         </form>
                     </div>
                 </div>
-                <hr>
-                <div class="level">
-                    <div class="level-left">
-                        <router-link to="/" tag="button" class="button">PPREVIOUS</router-link>
-                    </div>
-                    <div class="level-right">
-                        <router-link to="/details" tag="button" class="button">NEXT</router-link>
-                    </div>
-                </div>
+                <hr>                
             </div>
         </div>
     </div>

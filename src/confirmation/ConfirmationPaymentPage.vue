@@ -21,13 +21,13 @@
                 <hr>
                 <div class="level">
                     <div class="level-left">
-                        <router-link to="/application" tag="button" class="button">
-                            PPREVIOUS
+                        <router-link to="/application" tag="button" class="button is-primary">
+                            &#x2039;&nbsp;PPREVIOUS
                         </router-link>
                     </div>
                     <div class="level-right">
-                        <router-link to="/finish" tag="button" class="button">
-                            NEXT
+                        <router-link to="/finish" tag="button" class="button is-primary">
+                            NEXT&nbsp;&#x203A;
                         </router-link>
                     </div>
                 </div>

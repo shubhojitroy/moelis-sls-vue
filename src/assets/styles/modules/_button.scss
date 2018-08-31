@@ -1,0 +1,11 @@
+.button.is-primary {
+    background-color: $button-background-color;
+    border-color: $button-border-color;
+    border-radius: $button-border-radius;
+    box-shadow: $button-box-shadow;
+    &:hover {
+        background-color: $button-hover-background-color;
+        border-color: $button-hover-border-color;
+        box-shadow: $button-hover-box-shadow;
+    }
+}
