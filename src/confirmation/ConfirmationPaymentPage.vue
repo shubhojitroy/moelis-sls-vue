@@ -26,8 +26,8 @@
                         </router-link>
                     </div>
                     <div class="level-right">
-                        <router-link to="/" tag="button" class="button">
-                            RETURN TO START
+                        <router-link to="/finish" tag="button" class="button">
+                            NEXT
                         </router-link>
                     </div>
                 </div>

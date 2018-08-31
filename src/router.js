@@ -36,5 +36,10 @@ export default new Router({
       name: 'confirmation',
       component: () => import(/* webpackChunkName: "confirmation" */ './views/Confirmation.vue'),
     },
+    {
+      path: '/finish',
+      name: 'finish',
+      component: () => import(/* webpackChunkName: "confirmation" */ './views/Finish.vue'),
+    },
   ],
 });
